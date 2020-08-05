@@ -4,7 +4,7 @@ using System.Text;
 
 namespace MS.DomainModel
 {
-    interface IEntityId<TId> where TId: struct
+    public interface IEntityId<TId> where TId: struct
     {
         TId Id { get; set; }
     }
