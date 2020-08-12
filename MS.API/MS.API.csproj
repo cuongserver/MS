@@ -2,6 +2,12 @@
 
   <PropertyGroup>
     <TargetFramework>netcoreapp3.1</TargetFramework>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageId>MS.API</PackageId>
+    <Version>1.0.0</Version>
+    <Authors>your_name</Authors>
+    <Company>your_company</Company>
+    <IsPackable>true</IsPackable>
   </PropertyGroup>
 
   <ItemGroup>
